@@ -46,6 +46,7 @@
     <Compile Include="Car Body Facotry\CarBody.cs" />
     <Compile Include="Car Body Facotry\ModellSCarBody.cs" />
     <Compile Include="Car Body Facotry\ModelYCarBody.cs" />
+    <Compile Include="Car\ConcreteCar.cs" />
     <Compile Include="Chassis Factory\Chassis.cs" />
     <Compile Include="Chassis Factory\ModelSChassis.cs" />
     <Compile Include="Chassis Factory\ModelYChassis.cs" />
