@@ -53,6 +53,8 @@
     <Compile Include="Engine Factory\ModelSEngine.cs" />
     <Compile Include="Engine Factory\ModelYEngine.cs" />
     <Compile Include="Factory\Factory.cs" />
+    <Compile Include="Factory\ModelSFacotry.cs" />
+    <Compile Include="Factory\ModelYFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
