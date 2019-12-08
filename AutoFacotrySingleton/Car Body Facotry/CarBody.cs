@@ -8,6 +8,8 @@ namespace AutoFacotrySingleton.Car_Body_Facotry
 {
     public abstract class CarBody
     {
-      
+        public abstract void CreateHood();
+        public abstract void CreateFenders();
+        public abstract void CreateSunRoof();
     }
 }

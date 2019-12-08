@@ -8,9 +8,19 @@ namespace AutoFacotrySingleton.Car_Body_Facotry
 {
     public class ModelYCarBody:CarBody
     {
-        public ModelYCarBody()
-        { 
-        
+        public override void CreateFenders()
+        {
+            Console.WriteLine("Created Model-Y Fenders");
+        }
+
+        public override void CreateHood()
+        {
+            Console.WriteLine("Created Model-Y Hood");
+        }
+
+        public override void CreateSunRoof()
+        {
+            Console.WriteLine("Created Model-Y Sunroof");
         }
     }
 }
