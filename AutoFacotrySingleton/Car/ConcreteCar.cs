@@ -34,6 +34,10 @@ namespace AutoFacotrySingleton.Car
             chas = factory.CreateChassis();
             engi = factory.CreateEngine();
         }
+        public void AddCars()
+        {
+            cars.Add(new ConcreteCar(carb,chas,engi));
+        }
 
     }
 }
