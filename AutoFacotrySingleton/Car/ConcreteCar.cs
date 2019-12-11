@@ -24,19 +24,35 @@ namespace AutoFacotrySingleton.Car
             this.chas = chas;
             this.engi = engi;
         }
+
         public void SetFactory(IFacotry fy)
         {
             factory = fy;
         }
+
         public void InitCarElements()
         {
             carb = factory.CreateCarBody();
             chas = factory.CreateChassis();
             engi = factory.CreateEngine();
         }
+        
         public void AssembleCars()
         {
             cars.Add(new ConcreteCar(carb,chas,engi));
+        }
+
+        public void ShowAssemblingCarParts()
+        {
+            carb.CreateFenders();
+            carb.CreateHood();
+            carb.CreateSunRoof();
+            chas.CreatingNeedleBeam();
+            chas.CreatingRockingArm();
+            chas.CreatingShockAbsorber();
+            engi.CreateAirFiller();
+            engi.CreateGenerator();
+            engi.CreateOilFiller();
         }
 
     }
