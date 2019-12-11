@@ -25,6 +25,10 @@ namespace AutoFacotrySingleton.Car
             this.engi = engi;
         }
 
+        public ConcreteCar()
+        {
+        }
+
         public void SetFactory(IFacotry fy)
         {
             factory = fy;
