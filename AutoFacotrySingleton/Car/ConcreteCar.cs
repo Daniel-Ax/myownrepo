@@ -61,6 +61,10 @@ namespace AutoFacotrySingleton.Car
             engi.CreateGenerator();
             engi.CreateOilFiller();
         }
+        public List<ConcreteCar> concreteCars()
+        {
+            return cars;
+        }
 
     }
 }

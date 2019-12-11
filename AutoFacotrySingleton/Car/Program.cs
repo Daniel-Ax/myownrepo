@@ -13,8 +13,7 @@ namespace AutoFacotrySingleton.Car
             factory = new ModelSFacotry();
             car.SetFactory(factory);
             car.InitCarElements();
-            car.ShowAssemblingCarParts();
-            
+            car.concreteCars();
         }
     }
 }

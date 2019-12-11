@@ -26,12 +26,12 @@ namespace AutoFacotrySingleton.SingletonAlert
         {
 
         }
-        public void IsMalfunctrion()
-        {
-            if (Car.ConcreteCar. > 100)
-            {
-                throw new Exception("Too much car to assembly");
-            }
-        }
+        //public void IsMalfunctrion()
+        //{
+        //    if ( > 100)
+          //  {
+            //    throw new Exception("Too much car to assembly");
+        //    }
+        //}
     }
 }
