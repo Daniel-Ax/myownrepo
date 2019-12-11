@@ -58,6 +58,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Factory\IFacotry.cs" />
     <Compile Include="Car\Program.cs" />
+    <Compile Include="Chassis Factory\RoadsterChassis.cs" />
+    <Compile Include="Engine Factory\RoadsterEngine.cs" />
+    <Compile Include="Factory\RoadsterFactroy.cs" />
     <Compile Include="Car Body Facotry\RoadsterCarBody.cs" />
   </ItemGroup>
   <ItemGroup>

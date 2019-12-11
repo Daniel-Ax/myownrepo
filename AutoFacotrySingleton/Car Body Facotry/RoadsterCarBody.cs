@@ -1,11 +1,9 @@
 ﻿using System;
 using AutoFacotrySingleton.Car_Body_Facotry;
-using AutoFacotrySingleton.Chassis_Factory;
-using AutoFacotrySingleton.Engine_Factory;
 
-namespace AutoFacotrySingleton.CarBodyFacotry
+namespace AutoFacotrySingleton.Car_Body_Facotry
 {
-    public class RoadsterCarBody:CarBody
+    public class RoadsterCarBody : CarBody
     {
         public override void CreateFenders()
         {
