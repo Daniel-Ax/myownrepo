@@ -7,10 +7,11 @@ using AutoFacotrySingleton.Car_Body_Facotry;
 using AutoFacotrySingleton.Engine_Factory;
 using AutoFacotrySingleton.Chassis_Factory;
 using AutoFacotrySingleton.Factory;
+using AutoFacotrySingleton.SingletonAlert;
 
 namespace AutoFacotrySingleton.Car
 {
-    class ConcreteCar
+    public class ConcreteCar
     {
         public CarBody carb;
         public Chassis chas;
@@ -64,6 +65,23 @@ namespace AutoFacotrySingleton.Car
         public List<ConcreteCar> concreteCars()
         {
             return cars;
+        }
+        public void Diagnostic(CarBody body,Chassis chassis, Engine engine)
+        {
+            Console.WriteLine($"Run diagnostic...{body}");
+            Console.WriteLine($"Run diagnostic...{chassis}");
+            Console.WriteLine($"Run diagnostic...{engine}");
+            try
+            {
+                if (50>new Random().Next(1,100))
+                {
+                    throw new Exception("Malfunction");
+                }
+            }
+            catch (Exception ex)
+            {
+                SingletonAlert.SingletonAlert.Instance.alert(ex);
+            }
         }
 
     }

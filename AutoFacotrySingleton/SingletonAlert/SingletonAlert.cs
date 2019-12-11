@@ -22,16 +22,9 @@ namespace AutoFacotrySingleton.SingletonAlert
             }
             
         }
-        protected SingletonAlert()
+        public void alert(Exception exception)
         {
-
+            Console.WriteLine("Something went wrong");
         }
-        //public void IsMalfunctrion()
-        //{
-        //    if ( > 100)
-          //  {
-            //    throw new Exception("Too much car to assembly");
-        //    }
-        //}
     }
 }
