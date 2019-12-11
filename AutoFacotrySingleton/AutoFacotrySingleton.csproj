@@ -58,6 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Factory\IFacotry.cs" />
     <Compile Include="Car\Program.cs" />
+    <Compile Include="Car Body Facotry\RoadsterCarBody.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
