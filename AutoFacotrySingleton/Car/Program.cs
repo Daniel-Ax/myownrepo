@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using AutoFacotrySingleton.Factory;
 
 namespace AutoFacotrySingleton.Car
@@ -13,6 +14,7 @@ namespace AutoFacotrySingleton.Car
             car.SetFactory(factory);
             car.InitCarElements();
             car.ShowAssemblingCarParts();
+            
         }
     }
 }

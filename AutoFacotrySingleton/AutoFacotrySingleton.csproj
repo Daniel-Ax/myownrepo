@@ -62,10 +62,14 @@
     <Compile Include="Engine Factory\RoadsterEngine.cs" />
     <Compile Include="Factory\RoadsterFactroy.cs" />
     <Compile Include="Car Body Facotry\RoadsterCarBody.cs" />
+    <Compile Include="SingletonAlert\SingletonAlert.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Folder Include="SingletonAlert\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

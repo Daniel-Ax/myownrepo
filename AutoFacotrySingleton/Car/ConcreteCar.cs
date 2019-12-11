@@ -27,6 +27,7 @@ namespace AutoFacotrySingleton.Car
 
         public ConcreteCar()
         {
+
         }
 
         public void SetFactory(IFacotry fy)
@@ -39,19 +40,13 @@ namespace AutoFacotrySingleton.Car
             chas = factory.CreateChassis();
             carb = factory.CreateCarBody();
             engi = factory.CreateEngine();
+            AssembleCars(carb, chas, engi);
         }
         
         public void AssembleCars(CarBody c, Chassis ch,Engine e)
         {
-            try
-            {
-                cars.Add(new ConcreteCar(carb, chas, engi));
-            }
-            catch (Exception ex)
-            {
-                IsMalfunctioning(true);
-                Console.WriteLine(ex.Message);
-            }
+            
+            cars.Add(new ConcreteCar(c, ch, e));
         }
 
         public void ShowAssemblingCarParts()
@@ -65,13 +60,6 @@ namespace AutoFacotrySingleton.Car
             engi.CreateAirFiller();
             engi.CreateGenerator();
             engi.CreateOilFiller();
-        }
-        public void IsMalfunctioning(bool bad)
-        {
-            if (cars.Count>100)
-            {
-                throw new Exception("Too much car to assembly");
-            }
         }
 
     }
