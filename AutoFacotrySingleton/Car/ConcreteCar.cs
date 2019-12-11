@@ -36,8 +36,8 @@ namespace AutoFacotrySingleton.Car
 
         public void InitCarElements()
         {
-            carb = factory.CreateCarBody();
             chas = factory.CreateChassis();
+            carb = factory.CreateCarBody();
             engi = factory.CreateEngine();
         }
         
