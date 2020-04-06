@@ -8,6 +8,8 @@ namespace AutoFacotrySingleton.Engine_Factory
 {
     public abstract class Engine
     {
-
+        public abstract void CreateOilFiller();
+        public abstract void CreateAirFiller();
+        public abstract void CreateGenerator();
     }
 }

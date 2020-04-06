@@ -8,9 +8,19 @@ namespace AutoFacotrySingleton.Engine_Factory
 {
     public class ModelYEngine:Engine
     {
-        public ModelYEngine()
-        { 
-        
+        public override void CreateAirFiller()
+        {
+            Console.WriteLine("Created Model-Y Air filler");
+        }
+
+        public override void CreateGenerator()
+        {
+            Console.WriteLine("Created Model-Y Generator");
+        }
+
+        public override void CreateOilFiller()
+        {
+            Console.WriteLine("Created Model-Y Oil filler");
         }
     }
 }

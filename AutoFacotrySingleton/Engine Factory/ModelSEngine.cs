@@ -12,5 +12,20 @@ namespace AutoFacotrySingleton.Engine_Factory
         { 
             
         }
+
+        public override void CreateAirFiller()
+        {
+            Console.WriteLine("Created Model-S Air filler");
+        }
+
+        public override void CreateGenerator()
+        {
+            Console.WriteLine("Created Model-S Generator");
+        }
+
+        public override void CreateOilFiller()
+        {
+            Console.WriteLine("Created Model-S Oil filler");
+        }
     }
 }

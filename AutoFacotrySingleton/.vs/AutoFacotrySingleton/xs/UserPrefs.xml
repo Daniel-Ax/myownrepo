@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{5E29C091-67A6-44C5-842F-CFC5A7BA18DE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Main2.cs">
+    <Files>
+      <File FileName="Factory/IFacotry.cs" Line="1" Column="1" />
+      <File FileName="Engine Factory/Engine.cs" Line="1" Column="1" />
+      <File FileName="Engine Factory/ModelSEngine.cs" Line="1" Column="1" />
+      <File FileName="Car Body Facotry/ModellSCarBody.cs" Line="1" Column="1" />
+      <File FileName="Factory/ModelSFacotry.cs" />
+      <File FileName="Factory/ModelYFactory.cs" Line="1" Column="1" />
+      <File FileName="Main2.cs" Line="21" Column="10" />
+      <File FileName="Car Body Facotry/CarBody.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AutoFacotrySingleton" expanded="True">
+            <Node name="AutoFacotrySingleton" expanded="True">
+              <Node name="Car" expanded="True" />
+              <Node name="Car Body Facotry" expanded="True" />
+              <Node name="Chassis Factory" expanded="True" />
+              <Node name="Engine Factory" expanded="True" />
+              <Node name="Factory" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="SingletonAlert" expanded="True" />
+              <Node name="Main2.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AutoFacotrySingleton PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
